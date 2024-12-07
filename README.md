@@ -75,34 +75,3 @@ The script supports log lines similar to this format:
 ```
 192.168.1.100 - - [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
 ```
-
-## Customization
-
-You can easily modify the script to:
-- Change the suspicious activity detection criteria
-- Add more detailed log parsing
-- Implement additional security checks
-
-## Security Notes
-
-- Always ensure log files do not contain sensitive information
-- Use appropriate file permissions when handling log files
-- Consider using this tool as part of a broader security monitoring strategy
-
-## Limitations
-
-- Designed for standard web server logs
-- Assumes a specific log format
-- Does not perform real-time monitoring
-
-## Contributing
-
-Contributions are welcome! Please submit pull requests or open issues on the GitHub repository.
-
-## License
-
-[Specify your license here, e.g., MIT License]
-
-## Disclaimer
-
-This tool is for educational and security assessment purposes. Always use it responsibly and in compliance with your organization's policies.
